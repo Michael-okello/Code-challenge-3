@@ -1,1 +1,10 @@
-{}
+{
+        "posts": [
+    {
+        "id": 1,
+        "title": "How Atomic Habits Changed My Life",
+        "author": "Rachel Kim",
+        "content": "It essentially helped me be more productive"
+    }
+    ]
+}
