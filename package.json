@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "name": "post-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "": "json-sever --watch db.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-okello/Code-challenge-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Michael-okello/Code-challenge-3/issues"
+  },
+  "homepage": "https://github.com/Michael-okello/Code-challenge-3#readme"
+}
