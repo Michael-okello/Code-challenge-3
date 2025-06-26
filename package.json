@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "": "json-sever --watch db.json --port 3000"
+    "": "json-sever --watch db.json"
   },
   "repository": {
     "type": "git",
