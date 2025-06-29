@@ -4,8 +4,6 @@
 
 #### By **Michael Okello**
 
-## Description
-
 ## Project Description
 
 The Blog Post Viewer is a frontend web app powered by a mock JSON server. It lets users:
@@ -32,6 +30,7 @@ If you want to run the project locally, you'll need:
 - Terminal/Command Line
 - JSON Server globally installed (`npm install -g json-server`)  
 - A modern browser (Chrome, Firefox, Edge, etc.)
+- Live Server extensiom
 
 
 #### Installation Process
@@ -46,4 +45,9 @@ If you want to run the project locally, you'll need:
    ```bash
    cd code-challenge-3
    ```
+   3.Start the JSON server
    
+   ```bash
+   json-server --watch db.json
+   ```
+   3.Open the project using VS code and use the live server extension to open the project in your browser
