@@ -1,3 +1,4 @@
+const baseURL = "https://json-server-deployment-89gw.onrender.com/posts"
 // Main function starts
 function main() {
     displayPosts();
@@ -7,7 +8,7 @@ function main() {
 // Function to get all posts from the API and show them
 function displayPosts() {
     // Fetch to get data
-    fetch("http://localhost:3000/posts")
+    fetch(baseURL)
     .then(function(response) {
         return response.json();
     })
@@ -39,7 +40,7 @@ function displayPosts() {
 // Function to show details of a specific post
 function handlePostClick(postId) {
     console.log("Clicked on post ID:", postId);
-    fetch('http://localhost:3000/posts/' + postId)
+    fetch(baseURL + postId)
     .then(function(response) {
         return response.json();
     })
