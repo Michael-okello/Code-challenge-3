@@ -20,6 +20,15 @@ The Blog Post Viewer is a frontend web app powered by a mock JSON server. It let
 - Access to the internet
 - A modern web browser
 
+### View Live Site
+
+Visit the deployed application at: [Blog Post Manager](https://michael-okello.github.io/Code-challenge-3/)
+
+The live site allows you to:
+- View a list of blog posts 
+- Click to read full post details (title, content, author)  
+- Add new blog posts (temporarily added to the UI)  
+
 ### Local Development
 
 If you want to run the project locally, you'll need:
