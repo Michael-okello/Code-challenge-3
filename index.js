@@ -40,7 +40,7 @@ function displayPosts() {
 // Function to show details of a specific post
 function handlePostClick(postId) {
     console.log("Clicked on post ID:", postId);
-    fetch(baseURL + postId)
+    fetch(`${baseURL}/${postId}`)
     .then(function(response) {
         return response.json();
     })
